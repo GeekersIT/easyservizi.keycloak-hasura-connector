@@ -1,0 +1,33 @@
+{
+  "name": "hasura-connector",
+  "version": "0.0.1-beta",
+  "description": "Connect hasura with the keycloak",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/main.js",
+    "lint": "jshint -c .jshintrc --exclude-path .gitignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/httpsOmkar/sanwad-back.git"
+  },
+  "author": "Omkar Yadav<httpsOmkar@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/httpsOmkar/sanwad-back/issues"
+  },
+  "homepage": "https://github.com/httpsOmkar/sanwad-back#readme",
+  "dependencies": {
+    "convict": "^4.4.1",
+    "express": "^4.16.4",
+    "keycloak-connect": "^4.8.3",
+    "morgan": "^1.10.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "jest": "^24.8.0",
+    "jshint": "^2.10.2"
+  }
+}
